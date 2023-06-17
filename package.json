@@ -3,6 +3,10 @@
   "homepage": "http://react-architeck.peacefulqode.com/",
   "version": "0.1.0",
   "private": true,
+  "engines" : { 
+    "npm" : ">=8.19.20",
+    "node" : ">=19.0.0"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
