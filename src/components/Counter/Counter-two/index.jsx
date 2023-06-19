@@ -17,7 +17,7 @@ const Counter = () => {
                      </div>
                      <div className="pt-counter-info">
                         <div className="pt-counter-num-prefix">
-                           <h5 className="timer" data-to="3200" data-speed="5000">30</h5>
+                           <h5 className="timer" data-to="30" data-speed="5000">30</h5>
                            <span className="pt-counter-prefix"></span>
                         </div>
                         <p className="pt-counter-description mb-0 text-white">Billion- Value of Dams</p>
@@ -33,7 +33,7 @@ const Counter = () => {
                      </div>
                      <div className="pt-counter-info">
                         <div className="pt-counter-num-prefix">
-                           <h5 className="timer" data-to="1500" data-speed="5000">5000</h5>
+                           <h5 className="timer" data-to="5000" data-speed="5000">5000</h5>
                            <span className="pt-counter-prefix"></span>
                         </div>
                         <p className="pt-counter-description mb-0 text-white">Jobs to be created</p>
@@ -65,7 +65,7 @@ const Counter = () => {
                      </div>
                      <div className="pt-counter-info">
                         <div className="pt-counter-num-prefix">
-                           <h5 className="timer" data-to="2200" data-speed="5000">900</h5>
+                           <h5 className="timer" data-to="900" data-speed="5000">900</h5>
                            <span className="pt-counter-prefix"></span>
                         </div>
                         <p className="pt-counter-description mb-0 text-white">Billion Litres of water to be saved</p>
