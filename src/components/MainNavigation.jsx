@@ -4,6 +4,8 @@ import Error404 from './Pages/Error404';
 import Main_Home from './Home/Main-Home';
 import Construction from './Home/Construction';
 import Projects from './Home/Projects';
+import Updates from './Home/Updates';
+import frequently_asked_questions from './Home/FAQs';
 import Home from './Home/architecture';
 import Aboutus from './Pages/Aboutus';
 import Aboutme from './Pages/Aboutme';
@@ -37,6 +39,8 @@ const MainNavigation = () => {
         <Route  path="/Main_Home" exact={true}  component={Main_Home} />
         <Route  path="/Construction" exact={true} component={Construction} />
         <Route  path="/Projects" exact={true} component={Projects} />
+        <Route  path="/frequently_asked_questions" exact={true} component={frequently_asked_questions} />
+        <Route  path="/Updates" exact={true} component={Updates} />
         <Route  path="/" exact={true} component={Home} />
         {/* pages */}
         <Route  path="/aboutus" exact={true} component={Aboutus} /> 

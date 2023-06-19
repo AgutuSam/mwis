@@ -88,7 +88,7 @@ const Aboutus = () => {
                   </div>
                </div>
                <div className=" col-xl-6 col-lg-12  pt-md-4 d-flex align-items-center">
-             <div id="44c60" className="content__image-wrap content__image-wrap--half" data-color="#cf0f1a"
+             <div id="44c60" className="content__image-wrap content__image-wrap--half" data-color="#0096ff"
                            data-direction="rl">
                   <img className="img-fluid" src="images/about/demo-6.jpg" alt="demo-img"/>
                </div>

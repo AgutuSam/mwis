@@ -4,7 +4,9 @@ import React from 'react';
 const Banner = (prop) => {
     return(
     <>
-    <section className="pt-breadcrumb" >
+    <section className="pt-breadcrumb" style={ {
+    paddingTop: "253.5px"
+}}>
          <div className="pt-bg-overley pt-opacity4"  style={{backgroundImage: "url('images/bg/01.jpg')"}}></div>
          <div className="container">
             <div className="row">

@@ -81,8 +81,8 @@ import Css
 Moz Selection
 ================================================*/
 :root {
-	--primary-color: #cf0f1a;
-	--dark-color: #007577;
+	--primary-color: #1434a4;
+	--dark-color: #0096ff;
 	--secondary-color: #565969;
 	--grey-color: #f5f5f5;
 	--white-color: #ffffff;
@@ -179,7 +179,7 @@ html {
 a,
 .button {
 	color: var(--primary-color);
-	outline: none !important;
+	outline: none ;
 	transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
@@ -1499,8 +1499,21 @@ header#pt-header.pt-header-style-2 .pt-toggle-btn a:after {
 		margin-left: 30px;
 	}
 }
+ .lg_hidden{
+	display: none !important;
+ }
+ .sm_hidden{
+	display: block !important;
+}
 
 @media(max-width:1023px) {
+
+	.sm_hidden{
+		display: none !important;
+	}
+	.lg_hidden{
+		display: block !important;
+	 }
 
 	/*===== Button Toggler =====*/
 	header#pt-header .pt-bottom-header .navbar-toggler {

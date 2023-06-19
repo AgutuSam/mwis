@@ -10,9 +10,10 @@ const Procces = () => {
                <div className="col-xl-4 col-md-12">
                   <div className="pt-process-step pt-process-1 pt-bg-dark">
                      <div className="pt-process-info">
-                        <h3 className="pt-process-title text-white">Research &amp; Analysis</h3>
-                        <p className="pt-process-description text-white">It is a long established fact that a reader will be
-                           distracted by the readable content of a page when looking at its layout. 
+                     <h3 className="pt-process-title text-white">Expression of Interest</h3>
+                        <p className="pt-process-description text-white">Intrested in partnering with the Government? Go to projects page and sign up, login and view projects available and submit proposal
+                            
+                            
                         </p>
                      </div>
                      <div className="pt-btn-container">
@@ -34,9 +35,9 @@ const Procces = () => {
                <div className="col-xl-4 col-md-12">
                   <div className="pt-process-step pt-process-1 pt-bg-dark">
                      <div className="pt-process-info">
-                        <h3 className="pt-process-title text-white">Production Launch</h3>
-                        <p className="pt-process-description text-white">It is a long established fact that a reader will be
-                           distracted by the readable content of a page when looking at its layout. 
+                     <h3 className="pt-process-title text-white">Approval and signing</h3>
+                        <p className="pt-process-description text-white">Project approval requires a rigorous process that prioritises those who have submitted documents 
+                            as per the terms required. On approval the Ministry will invite you to sign the mandate to start. 
                         </p>
                      </div>
                      <div className="pt-btn-container">
@@ -60,9 +61,9 @@ const Procces = () => {
                <div className="col-xl-4 col-md-12">
                   <div className="pt-process-step pt-process-1 pt-bg-dark">
                      <div className="pt-process-info">
-                        <h3 className="pt-process-title text-white">Industry Development</h3>
-                        <p className="pt-process-description text-white">It is a long established fact that a reader will be
-                           distracted by the readable content of a page when looking at its layout. 
+                     <h3 className="pt-process-title text-white">Project Development</h3>
+                        <p className="pt-process-description text-white">Succesfull bidders are expected to start and complete projects in a strict timeframe. Governmetn will monitore progress 
+                            through the Ministry and on completion a cerfiticate will be provided. The certificate will be to manage and transfer the project within a specified period. 
                         </p>
                      </div>
                      <div className="pt-btn-container">

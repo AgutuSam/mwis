@@ -16,7 +16,7 @@ Design and Developed by: Peaceful Qode
 	.about-img-0 { max-width: 100%; }
 	.owl-carousel .pt-blog-post .pt-blog-contain .pt-blog-title { font-size: 22px; }
 	footer#pt-footer { font-size: 14px; }
-	#pt-footer .pt-footer-style-1 .pt-footer-logo { height: 30px; }
+	#pt-footer .pt-footer-style-1 .pt-footer-logo { height: 75px; }
 }
 @media(max-width:1199px) {
 	section { position: relative; padding: 90px 0px; }

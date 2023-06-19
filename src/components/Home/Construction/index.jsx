@@ -28,7 +28,7 @@ const Construction = () => {
             <Nav />
             <Banner />
             <Aboutus />
-            <Procces />
+            {/* <Procces /> */}
             <Portfolio />
             <Whychoose />
             <Progressbar />

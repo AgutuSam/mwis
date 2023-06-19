@@ -75,7 +75,8 @@ const Nav = () => {
                                        </ul> */}
                                     </li>
                                     <li>
-                                       <a href="/#">Portfolio</a><i className="ion-chevron-down"></i>
+                                       <a href="/Updates">Updates</a>
+                                       {/* <a href="/#">Portfolio</a><i className="ion-chevron-down"></i>
                                        <ul className="sub-menu">
                                           <li>
                                              <a href="/#">Portfolio Grid</a>
@@ -89,10 +90,11 @@ const Nav = () => {
                                           <li><a href="/portfolioSlider">Portfolio Slider</a></li>
                                           <li><a href="/Portfoliogallery">Portfolio Gallery</a></li>
                                           <li><a href="/Portfoliosingle">Portfolio Single</a></li>
-                                       </ul>
+                                       </ul> */}
                                     </li>
                                     <li>
-                                    <a href="/#">Blog</a><i className="ion-chevron-down"></i>
+                                    <a href="/frequently_asked_questions">FAQ's</a>
+                                    {/* <a href="/#">Blog</a><i className="ion-chevron-down"></i>
                                        <ul className="sub-menu">
                                           <li>
                                              <a href="/#">Blog Grid</a>
@@ -109,7 +111,7 @@ const Nav = () => {
                                                 <li className="menu-item"><a href="/blogleftsidebar">Blog left sidebar</a></li>
                                              </ul>
                                           </li>
-                                       </ul>
+                                       </ul> */}
                                     </li>
                                     <li>
                                        <a href="/Getintouch">Get In Touch</a>
@@ -119,11 +121,18 @@ const Nav = () => {
                                           <li><a href="/Getintouch">Get In Touch</a></li>
                                        </ul> */}
                                     </li>
+                                    <li className="lg_hidden">
+                                       <a href="/">Login</a>
+                                       {/* <i className="ion-chevron-down"></i> */}
+                                       {/* <ul className="sub-menu">
+                                       <li><a href="/Contactus">Contact Us</a></li>
+                                          <li><a href="/Getintouch">Get In Touch</a></li>
+                                       </ul> */}
+                                    </li>
                                  </ul>
                               </div>
                            </div>
-                           <div class="pt-header-info-box">
-
+                           <div class="pt-header-info-box sm_hidden">
                      <div class="pt-btn-container">
                         <a href="/" class="pt-button">
                            <div class="pt-button-block">
