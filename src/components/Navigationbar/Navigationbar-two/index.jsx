@@ -41,12 +41,13 @@ const Nav = () => {
                                        </ul> */}
                                     </li>
                                     <li>
-                                       <a href="/#">Portfolio</a><i className="ion-chevron-down"></i>
+                                       <a href="/Updates">Updates</a>
+                                       {/* <a href="/#">Portfolio</a><i className="ion-chevron-down"></i>
                                        <ul className="sub-menu">
                                           <li>
-                                             <a href="/#">Portfolio Grid</a><i className="ion-chevron-down"></i>
+                                             <a href="/#">Portfolio Grid</a>
                                              <ul className="sub-menu">
-                                                <li className="menu-item"><a href="/TwoColumns">2 Columns</a></li>
+                                               <li className="menu-item"><a href="/TwoColumns">2 Columns</a></li>
                                                 <li className="menu-item"><a href="/ThreeColumns">3 Columns</a></li>
                                                 <li className="menu-item"><a href="/ThreeColumnswide">3 Columns Wide</a></li>
                                                 <li className="menu-item"><a href="/FourColumnswide">4 Columns Wide</a></li>
@@ -55,15 +56,16 @@ const Nav = () => {
                                           <li><a href="/portfolioSlider">Portfolio Slider</a></li>
                                           <li><a href="/Portfoliogallery">Portfolio Gallery</a></li>
                                           <li><a href="/Portfoliosingle">Portfolio Single</a></li>
-                                       </ul>
+                                       </ul> */}
                                     </li>
                                     <li>
-                                       <a href="/#">Blog</a><i className="ion-chevron-down"></i>
+                                    <a href="/frequently_asked_questions">FAQ's</a>
+                                    {/* <a href="/#">Blog</a><i className="ion-chevron-down"></i>
                                        <ul className="sub-menu">
                                           <li>
                                              <a href="/#">Blog Grid</a>
                                              <ul className="sub-menu">
-                                                <li className="menu-item"><a href="/onecolumnblog">One Column Blog</a></li>
+                                             <li className="menu-item"><a href="/onecolumnblog">One Column Blog</a></li>
                                                 <li className="menu-item"><a href="/Twocolumnblog">two column blog</a></li>
                                                 <li className="menu-item"><a href="/Threecolumnblog">three column blog</a></li>
                                              </ul>
@@ -71,11 +73,11 @@ const Nav = () => {
                                           <li>
                                              <a href="/#">Blog With Sidebar</a>
                                              <ul className="sub-menu">
-                                                <li className="menu-item"><a href="/blogrightsidebar">Blog right sidebar</a></li>
+                                             <li className="menu-item"><a href="/blogrightsidebar">Blog right sidebar</a></li>
                                                 <li className="menu-item"><a href="/blogleftsidebar">Blog left sidebar</a></li>
                                              </ul>
                                           </li>
-                                       </ul>
+                                       </ul> */}
                                     </li>
                                     <li>
                                        <a href="/Getintouch">Get In Touch</a>

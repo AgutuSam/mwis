@@ -3374,6 +3374,17 @@ Video Popup
 	text-align: center;
 }
 
+.pt-video-icon-cutom a {
+	width: 75px;
+	height: 75px;
+	line-height: 75px;
+	text-align: center;
+	font-size: 28px;
+	background: transparent;
+	border: 2px dashed var(--white-color);
+	color: var(--primary-color);
+	display: inline-block;
+}
 .pt-video-icon a {
 	width: 75px;
 	height: 75px;
@@ -3386,6 +3397,11 @@ Video Popup
 	display: inline-block;
 }
 
+.pt-video-icon-custom a:hover {
+	border: 2px solid var(--primary-color);
+	color: var(--white-color);
+	background: var(--primary-color);
+}
 .pt-video-icon a:hover {
 	border: 2px solid var(--primary-color);
 	color: var(--white-color);

@@ -39,8 +39,8 @@ const Construction = () => {
                      </p>
                   </div>
                   <div className="pt-popup-video-block">
-                     <div className="pt-video-icon">
-                        <a href="https://www.youtube.com/embed/vDNsgrJwx1E" className="pt-video popup-youtube">
+                     <div className="pt-video-icon-cutom">
+                        <a href="https://www.youtube.com/embed/vDNsgrJwx1E" className="pt-video popup-youtube ">
                         <i aria-hidden="true" className="ion ion-play"></i></a>
                      </div>
                   </div>
