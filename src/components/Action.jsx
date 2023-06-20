@@ -32,9 +32,9 @@ const Sub = (event) => {
                         <h6>
                            Sign Up to Get Latest Updates
                         </h6>
-                        <span>
+                        {/* <span>
                         It is a long established fact that a reader will be distracted by the
-                        </span>
+                        </span> */}
                      </div>
                   </div>
                </div>

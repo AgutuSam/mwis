@@ -20,7 +20,7 @@ const Banner = () => {
       }
    const style4 = {
       zIndex: "9",
-      backgroundColor: "#ff5e14",
+      backgroundColor: "#0096ff",
       fontFamily: "Jost, sansserif",
    
       }
@@ -75,7 +75,7 @@ const Banner = () => {
                   {/* <!--
                      --> */}
                      <a href="/" >
-                  <rs-layer id="slider-6-slide-18-layer-4" url="/aboutus" className="rev-btn" data-type="button" data-rsp_ch="on"
+                  <rs-layer id="slider-6-slide-18-layer-4" url="/" className="rev-btn" data-type="button" data-rsp_ch="on"
                      data-xy="xo:50px,40px,30px,15px;y:m;yo:214px,168px,115px,84px;"
                      data-text="w:normal;s:16,12,16,16;l:32,25,32,30;" data-dim="minh:0px,none,none,none;"
                      data-padding="t:12,9,7,4;r:32,25,19,12;b:12,9,7,4;l:32,25,19,12;" data-frame_0="x:50,39,29,17;"
@@ -97,7 +97,7 @@ const Banner = () => {
                   </rs-layer>
                   {/* <!--
                      --> */}
-                       <a href="/" >
+                       {/* <a href="/" >
                   <rs-layer id="slider-6-slide-18-layer-6" url="/aboutus" className="rev-btn" data-type="button" data-rsp_ch="on"
                      data-xy="xo:245px,189px,193px,154px;y:m;yo:214px,168px,115px,84px;"
                      data-text="w:normal;s:16,12,16,16;l:32,25,32,30;" data-dim="minh:0px,none,none,none;"
@@ -106,7 +106,7 @@ const Banner = () => {
                      data-frame_hover="bgc:#ff5e14;bor:0px,0px,0px,0px;sp:200;e:power1.inOut;"
                      style={style6}>Get In Touch<br />
                   </rs-layer>
-                  </a>
+                  </a> */}
                   {/* <!--   style="z-index:8;background-color:#f9f6ee;font-family:Jost, sans-serif;"
                      --> */}
                </rs-slide>
@@ -220,7 +220,7 @@ const Banner = () => {
                      data-text="w:normal;s:16,12,16,16;l:32,25,32,30;a:center;" data-dim="minh:0px,none,none,none;"
                      data-padding="t:12,9,7,4;r:32,25,19,12;b:12,9,7,4;l:32,25,19,12;" data-frame_0="x:50,39,29,17;"
                      data-frame_1="st:1800;sp:1000;" data-frame_999="o:0;st:w;"
-                     data-frame_hover="bgc:#ff5e14;bor:0px,0px,0px,0px;sp:200;e:power1.inOut;"
+                     data-frame_hover="bgc:#0096ff;bor:0px,0px,0px,0px;sp:200;e:power1.inOut;"
                      style={style6} >Get In Touch<br />
                   </rs-layer>
                   </a>

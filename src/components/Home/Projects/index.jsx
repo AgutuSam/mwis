@@ -22,11 +22,11 @@ import Footer from '../../Footer';
 import ScrollTop from '../../ScrollTop';
 const Construction = () => {
     return (
-        <>
+        <div className="overflow-x-hidden">
             <Loader />
             {/* <Sidebar /> */}
             <Nav />
-            <Banner />
+            <Banner className="overflow-x-hidden"/>
             {/* <Aboutus />
             <Procces />
             <Portfolio />
@@ -44,7 +44,7 @@ const Construction = () => {
             <Action /> */}
             {/* <Footer /> */}
             <ScrollTop />
-        </>
+        </div>
     );
 
 }

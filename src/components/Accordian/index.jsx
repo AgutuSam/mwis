@@ -15,7 +15,7 @@ const Accordian = (prop) => {
                <div className="col-xl-12">
                   <div className="pt-section-title-box text-center">
                      <span className="pt-section-sub-title">Standard In Industrial Contracting.</span>
-                     <h2 className="pt-section-title">We Building Everything That Needed You</h2>
+                     <h2 className="pt-section-title">Have questions / Not sure how to proceed?</h2>
                      <p className="pt-section-description">In case you dont find what you are looking for feel free to contact us.
                      </p>
                   </div>
