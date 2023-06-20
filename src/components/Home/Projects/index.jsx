@@ -22,11 +22,11 @@ import Footer from '../../Footer';
 import ScrollTop from '../../ScrollTop';
 const Construction = () => {
     return (
-        <div className="overflow-x-hidden">
+        <div>
             <Loader />
             {/* <Sidebar /> */}
             <Nav />
-            <Banner className="overflow-x-hidden"/>
+            <Banner />
             {/* <Aboutus />
             <Procces />
             <Portfolio />

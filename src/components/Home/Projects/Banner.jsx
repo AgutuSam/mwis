@@ -55,8 +55,8 @@ const Banner = () => {
    }
     return(
     <>
-      <p className="rs-p-wp-fix"></p>
-      <rs-module-wrap id="rev_slider_4_1_wrapper" data-alias="slider-1" data-source="gallery"
+      {/* <p className="rs-p-wp-fix"></p> */}
+      <rs-module-wrap className="max-h-screen" id="rev_slider_4_1_wrapper" data-alias="slider-1" data-source="gallery"
          style={style1}>
          <rs-module id="rev_slider_4_1" style={{display: "none"}} data-version="6.2.2">
             <rs-slides>
