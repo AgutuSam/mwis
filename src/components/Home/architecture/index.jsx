@@ -1,15 +1,15 @@
 import React from 'react';
-import Testimonial from '../../Testimonial/Testimonial-three';
+// import Testimonial from '../../Testimonial/Testimonial-three';
 import Nav from '../../Navigationbar/Navigationbar-three';
 import Banner from './Banner';
 import Loader from '../../Loader';
-import Explore from '../../Explore/Explore-two';
-import Portfolio from '../../Portfolio';
+// import Explore from '../../Explore/Explore-two';
+// import Portfolio from '../../Portfolio';
 import Aboutus from '../../Aboutus/Aboutus-two';
 import Video from '../../Video/Video-two';
-import Counter from '../../Counter/Counter-two';
-import Client from '../../Client/Client-two';
-import Conatct from './Conatct';
+// import Counter from '../../Counter/Counter-two';
+// import Client from '../../Client/Client-two';
+// import Conatct from './Conatct';
 import Process from '../../Process/Process-two';
 import Sidebar from "../../Sidebar";
 import Action from '../../Action';
@@ -24,7 +24,7 @@ const Architeck = () => {
             <Banner />
             <Sidebar />
             <Process />
-            <Explore />
+            {/* <Explore /> */}
             {/* <Portfolio /> */}
             <Aboutus />
             <Video />
