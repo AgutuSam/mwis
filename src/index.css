@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply m-0 p-0 box-border font-jost;
+  }
+  :root {
+    @apply scroll-smooth;
+  }
+}
+
+@layer components {
+  .btn--arrow:hover {
+    @apply bg-[#1434a4] transition-colors duration-300;
+  }
+  .btn--arrow:hover > .span--1 {
+    @apply w-[42px] duration-300;
+  }
+  .btn--arrow:hover > .span--text {
+    @apply mx-4 duration-300;
+  }
+  .btn--arrow:hover > .span--2 {
+    @apply w-0 ml-0 duration-300;
+  }
+
+  .card:hover > div:nth-child(1) {
+    @apply bg-right-bottom;
+  }
+}
