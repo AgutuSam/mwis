@@ -8,6 +8,7 @@ import Accordian from "./Accordian";
 import Button from "./Button";
 import BackToTop from "./BackToTop";
 import LoadingScreen from "./LoadingScreen";
+import QuickLinks from "./QuickLinks";
 
 export {
   ButtonArrow,
@@ -20,4 +21,5 @@ export {
   Button,
   BackToTop,
   LoadingScreen,
+  QuickLinks,
 };

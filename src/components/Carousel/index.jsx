@@ -3,6 +3,7 @@ import { AnimatePresence } from "framer-motion";
 import Slide1 from "./Slide1";
 import Slide3 from "./Slide3";
 import Slide2 from "./Slide2";
+import QuickLinks from "../QuickLinks";
 const Carousel = () => {
   const [slide, setSlide] = useState(1);
   const handleClick = (e) => {
@@ -32,6 +33,9 @@ const Carousel = () => {
             onClick={handleClick}
           ></span>
         ))}
+      </div>
+      <div className="absolute bottom-12 left-1/2 hidden w-full -translate-x-1/2 xl:block">
+        <QuickLinks />
       </div>
     </section>
   );

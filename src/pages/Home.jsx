@@ -1,6 +1,11 @@
 import { useRef, useEffect, useState } from "react";
 import { AnimatePresence, useInView } from "framer-motion";
-import { ButtonArrow, EmailForm, LoadingScreen } from "../components";
+import {
+  ButtonArrow,
+  EmailForm,
+  LoadingScreen,
+  QuickLinks,
+} from "../components";
 import Carousel from "../components/Carousel";
 
 const Home = () => {
@@ -18,6 +23,9 @@ const Home = () => {
     <>
       <AnimatePresence>{isLoading && <LoadingScreen />}</AnimatePresence>
       <Carousel />
+      <section className="block xl:hidden">
+        <QuickLinks />
+      </section>
       <section className="mx-auto flex max-w-7xl flex-col items-start justify-center gap-8 px-4 py-[130px] xl:flex-row xl:items-center">
         <div className="w-full xl:w-1/2">
           <span className="border-l-2 border-blue-dark px-2.5 font-semibold text-blue-dark">

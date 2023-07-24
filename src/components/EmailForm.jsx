@@ -22,7 +22,7 @@ const EmailForm = () => {
             name=""
             id=""
             placeholder="Your email address"
-            className="h-full w-full bg-white px-4 py-2.5"
+            className="h-full w-full bg-white px-4 py-2.5 placeholder:text-center xs:placeholder:text-start"
             required
           />
           <button

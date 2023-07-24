@@ -41,7 +41,7 @@ const Navigation = () => {
         <HamBurgerMenu handleClick={handleMobileNav} />
       </nav>
       <ul
-        className={`absolute w-[calc(100%-2rem)] ${
+        className={`absolute z-[100] w-[calc(100%-2rem)] ${
           collapsed ? "h-0" : "h-[300px] pb-4"
         } m-4 mt-0 flex flex-col items-start justify-start overflow-y-auto bg-white text-base text-blue duration-300`}
       >

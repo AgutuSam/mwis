@@ -1,7 +1,7 @@
 import Navigation from "./Navigation";
 const Header = () => {
   return (
-    <header className="shadow-xl">
+    <header className="z-50 shadow-xl">
       <div className="w-full bg-blue">
         <ul className="mx-auto hidden h-11 w-full max-w-7xl items-center justify-end bg-blue px-4 text-xs text-white md:flex 2xl:h-12 2xl:px-0 2xl:text-sm">
           <li className="flex h-full items-center justify-center gap-2 border-x border-l-[rgba(255,255,255,0.1)] border-r-[rgba(255,255,255,0.1)] px-4 py-2.5 transition-all duration-300 hover:text-blue-dark">
