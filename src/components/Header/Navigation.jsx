@@ -3,10 +3,14 @@ import { ButtonArrow } from "../../components";
 import HamBurgerMenu from "./HamBurgerMenu";
 const navLinks = [
   { link: "Home", path: "/" },
-  { link: "Projects", path: "/Projects" },
-  { link: "Updates", path: "/Updates" },
-  { link: "FAQ's", path: "/frequently_asked_questions" },
-  { link: "Get in Touch", path: "/get_in_touch" },
+  { link: "Projects", path: "http://ppp.water.go.ke/dashboard" },
+  { link: "Updates", path: "http://ppp.water.go.ke/news" },
+  {
+    link: "General Reference Documents",
+    path: "http://ppp.water.go.ke/news/general-documents",
+  },
+  { link: "FAQ's", path: "http://ppp.water.go.ke/faqs" },
+  { link: "Get in Touch", path: "https://ppp.water.go.ke/contact-us" },
 ];
 
 const Navigation = () => {
@@ -16,7 +20,7 @@ const Navigation = () => {
   };
   return (
     <>
-      <nav className="relative mx-auto flex max-w-7xl items-center justify-between bg-white px-4 py-4 xs:py-0 2xl:px-0">
+      <nav className="relative mx-auto flex max-w-[1350px] items-center justify-between bg-white px-4 py-4 xs:py-0 2xl:px-0">
         <a href="/" className="py-1.5">
           <img
             src="/img/logo-light.png"

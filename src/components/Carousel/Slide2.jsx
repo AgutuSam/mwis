@@ -1,6 +1,5 @@
 import { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
-import Button from "../Button";
 
 const Slide2 = () => {
   const elRef = useRef();
@@ -25,7 +24,7 @@ const Slide2 = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <div className="max-w-7xl px-4 xs:px-8 md:px-12">
+      <div className="max-w-7xl px-4 xs:px-8 md:px-12 xl:mb-72 xl:mt-32">
         <motion.div
           className="mb-2 border-l-2 border-white px-1 py-0 text-xs font-semibold capitalize text-orange-500 xs:mb-4 xs:px-3 xs:py-1 sm:text-base"
           initial={{ x: 100, opacity: 0 }}
@@ -37,8 +36,8 @@ const Slide2 = () => {
         <motion.h1
           className="font-semibold capitalize text-white"
           style={{
-            fontSize: height < 900 ? `${height / 10}px` : "92px",
-            lineHeight: height < 900 ? `${height / 10}px` : "92px",
+            fontSize: height < 900 ? `${height / 10}px` : "80px",
+            lineHeight: height < 900 ? `${height / 10}px` : "80px",
           }}
           initial={{ x: 150, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
@@ -57,15 +56,6 @@ const Slide2 = () => {
           od dam projects, which are vital for sustainable economic growth and
           development.
         </motion.p>
-        <motion.div
-          initial={{ x: 100, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1, delay: 0.4 }}
-        >
-          <Button className="mt-4 bg-blue hover:bg-[#002155] xs:mt-10">
-            <a href="/">View Projects</a>
-          </Button>
-        </motion.div>
       </div>
     </motion.div>
   );

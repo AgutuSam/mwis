@@ -1,16 +1,13 @@
 import { useRef, useEffect, useState } from "react";
 import { AnimatePresence, useInView } from "framer-motion";
-import {
-  ButtonArrow,
-  EmailForm,
-  LoadingScreen,
-  QuickLinks,
-} from "../components";
+import { EmailForm, LoadingScreen, QuickLinks } from "../components";
 import Carousel from "../components/Carousel";
 
 const Home = () => {
   const imgRef = useRef(null);
+  const sectionRef = useRef(null);
   const isInView = useInView(imgRef, { once: true });
+  const isSectionInView = useInView(sectionRef, { once: true });
   const [isLoading, setLoading] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -26,7 +23,40 @@ const Home = () => {
       <section className="block xl:hidden">
         <QuickLinks />
       </section>
-      <section className="mx-auto flex max-w-7xl flex-col items-start justify-center gap-8 px-4 py-[130px] xl:flex-row xl:items-center">
+      <section
+        ref={sectionRef}
+        className={`relative bg-[#006330] py-16 transition-opacity duration-1000 sm:py-24 xl:py-[130px] ${
+          isSectionInView ? "opacity-100" : "opacity-0"
+        }`}
+      >
+        <div className="absolute left-0 top-0 z-[1] h-full w-full bg-[url('/img/Home/01.png')] bg-cover bg-center opacity-10"></div>
+        <img
+          src="/img/Home/demo-5.png"
+          alt="blueprint"
+          className="absolute -left-12 top-16 z-[1] sm:top-24 xl:top-[130px]"
+        />
+        <div className="relative z-[2] mx-auto flex max-w-7xl flex-col gap-8 px-4 xl:flex-row">
+          <figure className="grid w-full place-content-end">
+            <img
+              src="/img/Home/AliceWahome.jpg"
+              alt="AliceWahome"
+              className="w-full max-w-[500px] sm:w-auto"
+            />
+          </figure>
+          <article className="flex w-full flex-col items-center justify-center text-center xl:items-start xl:text-left">
+            <h2 className="text-[21px] font-semibold leading-normal text-white xs:text-[35px] md:text-[38px] xl:text-5xl">
+              Message from the CS
+            </h2>
+            <p className="leading-loose text-white">
+              There are many variations of passages of Lorem Ipsum available,but
+              the majority have suffered alteration in some form,by injected
+              humour,or randomised words which don’t look even slightly
+              believable.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section className="mx-auto flex max-w-7xl flex-col items-start justify-center gap-8 px-4 py-[130px] xl:flex-row ">
         <div className="w-full xl:w-1/2">
           <span className="border-l-2 border-blue-dark px-2.5 font-semibold text-blue-dark">
             Working With Government
@@ -43,7 +73,6 @@ const Home = () => {
             efficiency to accelerate the implementation of dam projects, which
             are vital for sustainable economic growth and development.
           </p>
-          <ButtonArrow className="bg-blue-dark">View More</ButtonArrow>
         </div>
         <div className="relative w-auto overflow-hidden xl:w-1/2" ref={imgRef}>
           <img src="/img/Home/img-1.jpg" alt="image" />

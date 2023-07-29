@@ -21,7 +21,7 @@ const BackToTop = () => {
     <button
       className={`fixed right-12 ${
         fixed ? "bottom-12" : "-bottom-24"
-      }  grid aspect-square h-[50px] place-content-center bg-blue-dark transition-all`}
+      }  z-30 grid aspect-square h-[50px] place-content-center bg-blue-dark transition-all`}
       onClick={handleClick}
       aria-label="scroll to top"
     >

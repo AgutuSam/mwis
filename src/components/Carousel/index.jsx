@@ -18,7 +18,7 @@ const Carousel = () => {
     return () => clearInterval(interval);
   }, [slide]);
   return (
-    <section className=" relative aspect-[1.44] w-full xl:aspect-auto xl:h-[900px]">
+    <section className=" relative aspect-[1.44] w-full xl:aspect-auto xl:h-[700px]">
       <AnimatePresence>
         {slide === 1 ? <Slide1 /> : slide === 2 ? <Slide2 /> : <Slide3 />}
       </AnimatePresence>
