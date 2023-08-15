@@ -48,10 +48,7 @@ const Home = () => {
               Message from the CS
             </h2>
             <p className="leading-loose text-white">
-              There are many variations of passages of Lorem Ipsum available,but
-              the majority have suffered alteration in some form,by injected
-              humour,or randomised words which don’t look even slightly
-              believable.
+            Commercialization of water services since 2002 has delivered financial sustainability of water utilities and access to water for millions of Kenyans. We recognize the power of water PPPs building on these achievements to improve on utility performance, leverage finance and technology. They are important means to achieve our goals of 1M acre irrigation and improved water supplies to 6M households.
             </p>
           </article>
         </div>

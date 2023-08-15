@@ -31,7 +31,7 @@ const Slide1 = () => {
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          Providing alternatives in great experiences in building
+          {/* Providing alternatives in great experiences in building */}
         </motion.div>
         <motion.h1
           className="font-semibold capitalize text-white"
